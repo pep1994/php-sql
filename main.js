@@ -4,7 +4,7 @@ function getPaganti() {
 
     $.ajax({
         method: "GET",
-        url: "getAllPaganti.php",
+        url: "partials/getAllPaganti.php",
         dataType: "json",
         success: function (data) {
 
